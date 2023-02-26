@@ -1,0 +1,574 @@
+@media(max-width: 1140px){
+    .container{
+        width: 992px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .site__nav-link{
+        display: none;
+    }
+    .site__nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .nav__shopping .bars__menu{
+        display: block;
+    }
+    .nav__link-copy{
+        display: block;
+        position: absolute;
+        left: -100%;
+        margin-top: 10px;
+        transition:all 1.5s ease;
+    }
+    .show{
+        left: 0;
+    }
+    .shopping__icon li a i{
+        font-size: 20px;
+        color: #000;
+    }
+}
+
+@media(max-width:992px){
+    .container{
+        width: 900px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .site__nav-logo a img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .site__nav-link{
+        display: none;
+    }
+    .site__nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .nav__shopping .bars__menu{
+        display: block;
+    }
+    .nav__link-copy{
+        display: block;
+        position: absolute;
+        left: -100%;
+        transition:all 1.5s ease;
+    }
+    .show{
+        left: 0;
+    }
+
+    /* card responsive */
+    .card__text h3{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #89ABC9;
+    }
+    .card__text h2{
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgba(0, 0, 0, 0.733);
+    }
+    .card__text p{
+        display: flex;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    /* site__section-led */
+    .site__hanger-text h3{
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 800;
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+    /* site__headphone */
+    .headphone__img img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        margin-top: 110px;
+        padding: 0 20px;
+    }
+    .headphone__text{
+        margin-top: 300px;
+        padding: 10px;
+    }
+    .headphone__text{
+        margin-top: 205px;
+    }
+    .headphone__text h3{
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+    .gallery__info p{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        color: #89ABC9;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 1px;
+    }
+    .gallery__info h3{
+        font-size: 16px;
+        font-weight: 700;
+        color: #000;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        font-family: 'Nunito Sans', sans-serif;
+        text-transform: capitalize;
+    }
+    .add__category .category__list{
+        position: absolute;
+        top: 20px;
+        background-color: #000;
+        width: 220px;
+        left: -5px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .category__title1 a span{
+        margin-right: 10px;
+        width: 22px;
+        text-align: center;
+    }
+    .category__title1 a span i{
+        font-size: 18px;
+    }
+    .category__title1 li a{
+        text-decoration: none;
+        display: flex;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .footer__metro{
+        padding: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        width: 720px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .site__nav-link{
+        display: none;
+    }
+    .site__nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .nav__shopping .bars__menu{
+        display: block;
+    }
+    .nav__link-copy{
+        display: block;
+        position: absolute;
+        left: -100%;
+        transition:all 1.5s ease;
+    }
+    .show{
+        left: 0;
+    }
+    .shopping__icon li a i{
+        font-size: 18px;
+        color: #000;
+    }
+    .shopping__icon li{
+        list-style: none;
+        margin-right: 10px;
+    } 
+    .shopping__icon li a{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-right: 15px;
+    } 
+    .category__title a img{
+        display: block;
+        width: 25px;
+        object-fit: cover;
+    }
+    .category__title{
+        border: 1px solid #000;
+        width: 175px;
+        background-color: #000;
+        padding: 15px 5px;
+        border-radius: 5px;
+        height: 52px;
+    }
+    .category__title a span{
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .site__main-search input{
+        border: none;
+        padding: 5px;
+        display: inline-block;
+        width: 200px;
+        outline: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .card__text h3{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #89ABC9;
+    }
+    .card__text h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgba(0, 0, 0, 0.733);
+    }
+    .card__text p{
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .card__text h4{
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgba(0, 0, 0, 0.664);
+        margin-top: 15px;
+    }
+    .site__hanger-text h3{
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 800;
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+    .site__hanger-text p{
+        display: flex;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .site__headphone{
+        display: flex;
+    }
+    .headphone__img img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        margin-top: 132px;
+        padding: 0 20px;
+    }
+    .headphone__text h3{
+        text-transform: uppercase;
+        margin-top: -30px;
+        font-weight: 800;
+        font-size: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+    .headphone__text p{
+        display: flex;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .blueth__text h3{
+        font-size: 15px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #89ABC9;
+        text-transform: capitalize;
+    }
+    .blueth__text h4{
+        display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .gallery__info p{
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        color: #89ABC9;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 1px;
+    }
+    .gallery__info h3{
+        font-size: 13px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 15px;
+        font-family: 'Nunito Sans', sans-serif;
+        text-transform: capitalize;
+    }
+    .insta__icon{
+        position: relative;
+        top: -70px;
+        left: 40%;
+        background-color: #fff;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .add__category .category__list{
+        position: absolute;
+        top: 20px;
+        background-color: #000;
+        width: 170px;
+        left: -5px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .category__title1 a span{
+        margin-right: 10px;
+        width: 22px;
+        text-align: center;
+    }
+    .category__title1 a span i{
+        font-size: 18px;
+    }
+    .category__title1 li a{
+        text-decoration: none;
+        display: flex;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    /* footer  */
+    .footer__metro{
+        padding: 20px;
+    }
+}
+
+@media(max-width:576px){
+    .container{
+        width: 540px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .site__nav-link{
+        display: none;
+    }
+    .site__nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .nav__shopping .bars__menu{
+        display: block;
+    }
+    .nav__link-copy{
+        display: block;
+        position: absolute;
+        left: -100%;
+        transition:all 1.5s ease;
+    }
+    .show{
+        left: 0;
+    }
+    .category__title{
+        border: 1px solid #000;
+        width: 130px;
+        background-color: #000;
+        padding: 15px 5px;
+        border-radius: 5px;
+        height: 52px;
+    }
+    .category__title a img{
+        display: none;
+        width: 20px;
+        object-fit: cover;
+    }
+    .category__title a span{
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #fff;
+        font-weight: 400;
+    }
+    .site__main-search input{
+        border: none;
+        padding: 5px;
+        display: inline-block;
+        width: 100px;
+        outline: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .site__main-search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #89ABC9;
+        padding: 15px 1px;
+        border-radius: 5px;
+        background-color: #fff;
+        height: 52px;
+    }
+    .card__text h2{
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgba(0, 0, 0, 0.733);
+    }
+    .card__text p{
+        display: flex;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .site__hanger-text h3{
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 800;
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+    .site__section-hanger{
+        display: block;
+    }
+    .site__products-keyboard{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .control__div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .site__section-hanger{
+        border: 1px solid #000;
+    }
+    .site__headphone{
+      border: 1px solid #000;
+    }
+    .site__sign-text h2{
+        display: flex;
+        text-transform: capitalize;
+        justify-content: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .site__sign-text p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #89ABC9;
+    }
+    .gallery__img h3{
+        display: block;
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        padding: 5px;
+        text-align: center;
+        background-color: #fff;
+        font-size: 18px;
+        font-weight: 900;
+        color: #000;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .gallery__img h3 span{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .gallery__info p{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        color: #89ABC9;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 1px;
+    }
+    .gallery__info h3{
+        font-size: 20px;
+        font-weight: 800;
+        color: #000;
+        margin-bottom: 15px;
+        font-family: 'Nunito Sans', sans-serif;
+        text-transform: capitalize;
+    }
+    .gallery__images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery__images a img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1px;
+        margin-bottom: 10px;
+    }
+}
